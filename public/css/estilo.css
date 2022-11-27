@@ -1,0 +1,88 @@
+body {
+    overflow-x: hidden !important;
+}
+
+.menu {
+    margin-bottom: 15px;
+}
+
+.app {
+    margin-top: 3% !important;
+}
+
+.corpo_conteudo_table {
+    padding: 1px !important;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    margin-top: 10% !important;
+}
+
+li.list-group-item.active {
+    border-color: #009933;
+    border-left: solid 10px #009933;
+}
+
+li a {
+    color: #212529;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+h4 {
+    color: #009933 !important;
+}
+
+h6 {
+    color: #7c25f8 azure;
+    font-size: 70% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    text-indent: 7% !important;
+}
+
+h5 {
+    color: #7c25f8 !important;
+    font-size: 80% !important;
+}
+
+th {
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #7c25f8 !important;
+    color: azure !important;
+}
+
+#wrapper_box,
+#wrapper_body,
+#wrapper_head {
+    overflow-x: hidden !important;
+}
+
+.table {
+    margin-bottom: 0rem !important;
+}
+
+.text-truncate {
+    display: block;
+}
+
+a {
+    color: black !important;
+}
+
+.logoff {
+    color: rgba(240, 236, 35, 0.267)) !important;
+}
+.logoff:hover {
+    color: #e33c55 !important;
+}
+
+.opcaoOn {
+    color: azure !important;
+}
+.opcaoOn:hover {
+    color: #2ecbf2 !important;
+}
