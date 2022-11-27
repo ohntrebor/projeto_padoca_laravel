@@ -28,7 +28,7 @@
                     document.getElementById('bairro').value = dadosJSONObj.bairro
                     document.getElementById('cidade').value = dadosJSONObj.localidade
                     document.getElementById('uf').value = dadosJSONObj.uf
-                    document.getElementById('complemento').value = dadosJSONObj.complemento
+                    // document.getElementById('complemento').value = dadosJSONObj.complemento
 
                 }
             }
