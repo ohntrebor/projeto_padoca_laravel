@@ -19,7 +19,7 @@ use \App\Http\Controllers\CadastroController;
 //     return view('welcome');
 // });
 Route::get('/home', [\App\Http\Controllers\BaseController::class, 'index'])->name('home');
-Route::get('/', [\App\Http\Controllers\BaseController::class, 'index'])->name('home');
+Route::get('/', [\App\Http\Controllers\BaseController::class, 'index']);
 Route::post('/login', [\App\Http\Controllers\LoginController::class, 'autenticar'])->name('login');
 Route::get('/login/{erro?}', [\App\Http\Controllers\LoginController::class, 'index'])->name('error');
 
