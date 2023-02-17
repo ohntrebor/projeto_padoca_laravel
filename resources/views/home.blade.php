@@ -61,10 +61,6 @@
                         <li class="nav-item">
                             <a href="#especialidades" class="nav-link"><i class="fa-solid fill"> Especialidades</i></a>
                         </li>
-                        <li class="nav-item divisor"></li>
-                        <li class="nav-item">
-                            <a href="#sobrenos" class="nav-link"><i class="fa-solid fill"> Team</i></a>
-                        </li>
 
                         <li class="nav-item divisor"></li>
                         <a href="{{ route('carrinho.index') }}" class="nav-link text-white">
@@ -124,92 +120,6 @@
 
             </div>
         </scroll>
-
-
-
-        <scroll id="sobrenos">
-
-            <div class="container text-center">
-                <div class="row align-items-center">
-                    <div class="col sobrenos">
-                        <img alt="Image placeholder" src="/img/guilherme.png" width="40%"
-                            class="avatar avatar-sm rounded-circle">
-                        <br>
-                        <span class="nomes">
-                        Guilherme Belmonte
-                    </span>
-                        <p>Profissional responsável pelos testes do sistema e cultivo interno de plantas para o nosso
-                            famoso chá.
-                        </p>
-                    </div>
-
-                    <div class="col sobrenos">
-                        <img alt="Image placeholder" src="/img/gustavo.png" width="40%"
-                            class="avatar avatar-sm rounded-circle">
-                        <br>
-                        <span class="nomes">
-                        Gustavo Henrique Lima
-                    </span>
-                        <p>Profissional responsável pela Arquitetura e desenho do layout da página e
-                            entregador preferido de nossa clientela
-                        </p>
-                    </div>
-
-                    <div class="col sobrenos">
-                        <img alt="Image placeholder" src="/img/higor.jpeg" width="40%"
-                            class="avatar avatar-sm rounded-circle">
-                        <br>
-                        <span class="nomes">
-                        Higor Souza de Almeida
-                    </span>
-                        <p>Profissional responsável pela modelagem de dados e da receita secreta das massas supremas de
-                            nossos salgados.
-                        </p>
-                    </div>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col sobrenos">
-                        <img alt="Image placeholder" src="/img/leonardo.png" width="40%"
-                            class="avatar avatar-sm rounded-circle">
-                        <br>
-                        <span class="nomes">
-                        Leonardo de Almeida Ferreira
-                    </span>
-                        <p>Profissional responsável pelo front da aplicação, como também
-                            pelo excelente atendimento de nossa Padoca.
-                        </p>
-                    </div>
-
-                    <div class="col sobrenos">
-                        <img alt="Image placeholder" src="/img/reverton.jpeg" width="40%"
-                            class="avatar avatar-sm rounded-circle">
-                        <br>
-                        <span class="nomes">
-                        Reverton Ailton da Conceição
-                    </span>
-                        <p>Profissional responsável pelo back da aplicação e
-                            o padeiro chefe por trás do pão mais famoso da região.
-                        </p>
-                    </div>
-
-                    <div class="col sobrenos">
-                        <img alt="Image placeholder" src="/img/robert.jpeg" width="40%"
-                            class="avatar avatar-sm rounded-circle">
-                        <br>
-                        <span class="nomes">
-                        Robert Alves dos Anjos
-                        </span>
-                        <p>Profissional full stack do projeto, responsável pela administração e financeiro da padoca, super equipe de 6.
-
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-
-        </scroll>
-
-
 
     </div>
 
